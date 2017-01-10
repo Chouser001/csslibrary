@@ -1,9 +1,15 @@
+/*this overrides unless otherwise stated*/
 body {
 	background-color: #FAEBD7
 }
+
+h3 {
+	font-size: 45px;
+}
+
 img {
-	height: 400;
-	width: 400;
+	height: 400px;
+	width: 400px;
 }
 
 .css-classes {
