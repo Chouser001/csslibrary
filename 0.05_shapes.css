@@ -1,0 +1,17 @@
+#square {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 0px;
+  position: absolute;
+  margin: 20px 0px 0px 150px;
+}
+
+#circle {
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 50px;
+	position: absolute;
+	margin: 20px 0px 0px 150px;
+}

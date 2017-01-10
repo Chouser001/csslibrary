@@ -1,16 +1,18 @@
 body {
 	background-color: grey;
 }
-
+ /*to target a class in css file, use a period first*/
+ 
 .first-class{
 	color:green;
-
+/* color will target the font color*/
 }
 
 .second-class{
 	font-size:16px;
 }
 
+/*to target ids use a #*/
 #number-one {
 	color: red;
 }
