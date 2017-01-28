@@ -1,85 +1,106 @@
-
-.wrapper{
-  margin: 50px;
-}
-/* Smiley face */
-.face{
-  width:75px;
-  height:75px; 
-  border:solid 2px black;
-  background-color: yellow; 
-  border-radius: 50px;
+/*much of the following code was from: http://codepen.io/jamespauloconnor/*/
+#square {
+  width: 200px;
+  height: 20px;
+  border: 5px solid green;
+  border-radius: 0px;
+  position: absolute;
+  margin: 20px 0px 0px 400px;
 }
 
-.lefteye{
-  width:6px;
-  height:6px;
+#circle {
+  width: 20px;
+  height: 20px;
+  border: 5px solid red;
+  border-radius: 100%;
+  position: absolute;
+  margin: 20px 0px 0px 20px;
+} 
+
+
+.topeye{
+  width:15px;
+  height:15px;
   border:solid 1px black;
-  border-radius:3px;
+  border-radius:100%;
   z-index: 1;
   position:relative;
-  left:32px;
-  top: 26px;
+  left:250px;
+  top: 100px;
+  background-color:black;
+}
+.lefteye{
+  width:15px;
+  height:15px;
+  border:solid 1px black;
+  border-radius:100%;
+  z-index: 1;
+  position:relative;
+  left:250px;
+  top: 100px;
   background-color:black;
 }
 
-#inner-left{
-  width:2px;
-  height:2px;
-  border:solid 1px white;
-  border-radius:2px;
-  position:relative;
-  left:2px;
-  top: 2px;
-  background-color:white
-}
-
-.righteye{
-  width:6px;
-  height:6px; 
+.scaredeye-1{
+  width:30px;
+  height:30px;
   border:solid 1px black;
-  border-radius:3px;
-  z-index:1;
+  border-radius:100%;
+  z-index: 1;
   position:relative;
-  left:54px;
-  top:18px;
-  background-color:black
+  left:340px;
+  top: 175px;
+  background-color:black;
 }
-
-#inner-right{
+#inner-left{
   width:2px;
   height:2px; 
   border:solid 1px white;
   border-radius:3px;
   z-index:1;
   position:relative;
-  left:2px;
-  top:2px;
+  left:8px;
+  top:6px;
   background-color:white
-  
 }
+
+.eyeBrow{
+  height: 3px;
+  width: 9px;
+  background-color:black;
+  position:relative;
+  right:15px;
+  bottom:0px;
+}
+
+/*found this answer from: Harisankaran Parameswaran, @hari_shanx, in stackoverflow*/
+.crossed-1 { 
+  height: 25px;
+  width: 0px;
+  border-bottom: 2px solid black;
+  border-right: 5px solid black;
+  -moz-transform: skew(-45deg);
+  -webkit-transform: skew(-45deg);
+  transform: skew(-45deg);
+  position:relative; 
+  bottom:6px;
+  right:15px;
+ }
+
 .mouth{
   width:30px;
   height:10px; 
   border:solid 1px black;
-  border-radius:0px 0px 45px 45px; /*Adjust this to change expression*/
+  border-radius:45px 45px 45px 45px; /*Adjust this to change expression*/
   margin:16px;
   position:relative;
-  top:1em;
-  left:1em;
+  top:8em;
+  left:15em;
   background-color:black;
-}
-.eyeBrow{
-  height: 2px;
-  width: 7px;
-  background-color:black;
-  position:relative;
-  left:0px;
-  bottom:8px;
 }
 .tongue{
-  width:10px;
-  height:4px;
+  width:19px;
+  height:25px;
   top:5px;
   left:10px;
   background-color:#FF7777;
@@ -87,70 +108,3 @@
   color:#FFFFFF;
   position:relative;
 }
-.goatee{
-  width: 0px;
-  height 0px;
-  border-right: 3px solid transparent;
-  border-left:3px solid transparent;
-  border-top:5px solid black;
-  border-bottom: 0px solid black;
-  position: relative;
-  left:45px;
-  top: 2px;
-}
-
-
-/*
-#left-arm {
-  width: 40px;
-  height: 1px;
-  border-top: 1px solid green;
-  border-right: 0px solid green;
-  bottom: 1px solid green;
-  position: relative;
-  left: 60px;
-  
-}
-*/
-/*#circle {
-	width: 200px;
-	height: 200px;
-	border: 5px solid red;
-	border-radius: 100%;
-	position: absolute;
-	margin: 20px 0px 0px 20px;
-} 
-*/
-/*
-#triangle-3{
-	width: 0px;
-	height: 0px;
-	border-top: 30px solid green;
-	border-left: 25px solid green;
-	border-bottom: 30px solid green;
-	border-right: 30px solid green;
-	position: relative;
-	right:50px;
-  bottom: 40px;
-}
-*/
-#triangle-4{
-	width: 0px;
-	height: 0px;
-	border-top: 250px solid green;
-	border-left: 250px solid green;
-	border-bottom: 250px solid green;
-	border-right: 250px solid green;
-	position: relative;
-  margin: 50px 50px 20px 50px;
-}
-
-#circle-3 {
-	width: 200px;
-	height: 200px;
-	border: 5px solid black;
-	border-radius: 10%;
-	position: absolute;
-	margin: 20px 0px 0px 20px;
-} 
-
